@@ -1,55 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
     <meta charset="UTF-8">
     <title>CSS Grid Responsive Site</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<header>
+<header id="banner">
     <h1>Welcome to Acme Web Solutions</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam consectetur cupiditate dolorem eligendi eos
-        ipsa iusto necessitatibus similique sint?</p>
-    <a href=""></a></header>
-<section>
+    <p class="bn-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci eum error earum soluta voluptatum nisi laboriosam eos saepe asperiores dolorum.</p>
+    <a class="button" href="#section2">Read More</a></header>
+
+<main>
+<section id="section1">
     <h2>Web & Application Development</h2>
-    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?
-    </article>
+    <div class="st1-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?
+    </div>
 </section>
-<section>
-    <div>
+<section id="section2">
+    <div class="st2-div">
+        <img class="image" src="./pexels-photo-574077.jpeg" alt="IMAGE_1">
         <h3>Web Development</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
     </div>
-    <div>
+   <div class="st2-div">
+        <img class="image" src="./pexels-photo-261628.jpeg" alt="IMAGE_2">
         <h3>Mobile Applications</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
     </div>
-    <div>
+  <div class="st2-div">
+        <img class="image" src="./pexels-photo-265087.jpeg" alt="IMAGE_3">
         <h3>Tech Marketing</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum culpa neque quo eum et quasi velit voluptatum cum maiores exercitationem.</p>
     </div>
 </section>
-<section>
+<section id="section3">
     <h2>We handle all of your digital needs</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat cupiditate, dolore eius! Minus, explicabo.</p>
 </section>
-<section>
-    <div>
+<section id="section4">
+    <div class="st4-div1 st4">
         <h2>Contact Us</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
         </p>
         <p>contact@acmewebsolutions.test</p>
-    </div>
-    <div>
+    </div><div class="st4-div2 st4" >
         <h2>About Our Company</h2>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti, quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut suscipit amet temporibus quo?</p>
     </div>
 </section>
-<footer>
+</main>
+<footer id="footer">
     <div>Acme Web Solutions</div>
     <div>Project By
-        <a href="https://traversymedia.com/" target="_blank">Traversy Media</a>
+        <a class ="link" href="https://traversymedia.com/" target="_blank">Traversy Media</a>
     </div>
 </footer>
 </body>
